@@ -1,5 +1,4 @@
 @import "bootstrap";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 .clear {
   clear: both;
@@ -21,8 +20,8 @@
     line-height: 16px;
     cursor: pointer;
     transform: rotate(11deg);
-    -ms-transform: rotate(11deg); /* IE 9 */
-    -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
+    -ms-transform: rotate(11deg);
+    -webkit-transform: rotate(11deg); 
 }
 
 .slogan {
@@ -37,6 +36,8 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'nobileregular', sans-serif;
+  font-family: bold;
 }
 header {
   border-top: 9px solid #222222;
@@ -46,8 +47,8 @@ hr {
 }
 
 h1{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'nobileregular', sans-serif;
 }
 h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'nobilemedium_italic', sans-serif;
 }
