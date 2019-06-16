@@ -32,6 +32,11 @@ gem 'jquery-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'country_select'
+gem 'activemodel'
+gem 'railties'
+gem 'rake'
+gem 'simple_form', '~> 4.0', '>= 4.0.1'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
